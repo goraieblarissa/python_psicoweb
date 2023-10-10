@@ -8,7 +8,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
         <!-- <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-        <script defer src="https://pyscript.net/alpha/pyscript.js"></script> -->
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>  -->
+        <!-- <script defer type="text/javascript" src="arquivo.js"></script> -->
 
     </head>
 
@@ -23,10 +24,94 @@
                 <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="artigo.html">artigos</a>
                 <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="sobre.html">sobre</a>
             </nav>
-            <!-- <div id="menu-btn" class="fa-solid fa-bars"> </div> -->
-        </header>
-        <!-- <py-script> 
-            print('Primeiro teste python')
-        </py-script> -->
+            <script defer type="text/javascript" src="js/validar_form.js"></script>
+
+        </header>  
+            
+        <section class="sintomas" id="sintomas">
+            <h1 class="heading"> <span>sintomas </span></h1> 
+            <h1 class="heading">  <span> sintomas </span></h1>
+            <p>
+                escolha os sintomas que você está sentindo
+            </p>
+            <form onsubmit="return validarFormulario()">
+            
+                <div class="box-container">
+
+                    <div class="box">
+                        <label for="ansiedade">
+                            <h3>
+                                <input type="checkbox" id="opcao1" name="preferencias" value="opcao1"> Opção 1
+                            </h3>
+                            <p>
+                                Sensação de desconforto, tensão, medo ou mau pressentimento que são provocados pela antecipação de perigo ou algo desconhecido.
+                            </p>
+                        </label>
+                    </div>
+
+                    <div class="box">
+                        <label for="depressao">
+                            <h3>
+                                <input type="checkbox" id="opcao2" name="preferencias" value="opcao2"> Opção 2
+                            </h3>
+                            <p>
+                                Apatia, insônia, irritabilidade, falta de energia, ganho ou perda de peso e etc.  
+                            </p>
+                        </label>
+                    </div>
+
+                    <div class="box">
+                        <label for="ta">
+                            <h3>
+                                <input type="checkbox" id="opcao2" name="preferencias" value="opcao2"> Opção 3
+                            </h3>
+                            <p>
+                                Preocupação excessiva com o peso ou a forma corporal e medo exagerado de engordar
+                            </p>
+                        </label>
+                    </div>
+
+                    <div class="box">
+                        <label for="bipolaridade">
+                            <h3>
+                                <input type="checkbox" id="opcao2" name="preferencias" value="opcao2"> Opção 4
+                            </h3>
+                            <p>
+                                Grandes mudanças de humor, dificuldades na comunicação e socialização. Pode oscilar em estados de depressão para impulsividades e excesso de extroversão. 
+                            </p>
+                        </label>
+                    </div>
+
+                    <div class="box">
+                        <label for="toc">
+                            <h3>
+                                <input type="checkbox" id="opcao2" name="preferencias" value="opcao2"> Opção 5
+                            </h3>
+                            <p>
+                                Pensamentos recorrentes e desagradáveis (obsessões) e comportamentos repetitivos ritualizados (compulsões), voltados para a redução do desconforto associado a tais pensamentos.
+                            </p>
+                        </label>
+                    </div>
+                    
+                    <div class="box">
+                        <label for="esquizofrenia">
+                            <h3>
+                                <input type="checkbox" id="opcao2" name="preferencias" value="opcao2"> Opção 6
+                            </h3>
+                            <p>
+                                Pensamentos ou experiências que parecem não ter contato com a realidade, fala ou comportamento desorganizado e participação reduzida nas atividades cotidianas.
+                            </p>
+                        </label>
+                    </div>
+
+                </div>
+                <!-- <a href="artigo.html" class="btn"  type="submit">Continuar<span class="fa-solid fa-chevron-right"></a>  -->
+                <button type="submit" class="btn">
+                    Continuar
+                    <span class="fa-solid fa-chevron-right">
+                    </a>
+                </button>
+            </form>
+        </section>
 
     </body>
