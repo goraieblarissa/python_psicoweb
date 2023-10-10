@@ -281,7 +281,19 @@ section{
     margin-left: 3rem;
 }
 
+.artigo  .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8; 
+}
 
+.artigo  .content p{
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8; 
+}
 
 
 
