@@ -126,6 +126,21 @@ section{
     margin-left: 3rem;
 }
 
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 5rem;
+    letter-spacing: .4rem;
+}
+
+.heading .span{
+    text-transform: uppercase;
+    color: var(--black);
+}
+ 
 /* #menu-btn{
     font-size: 2.5rem;
     border-radius: .5rem;
@@ -135,6 +150,44 @@ section{
     cursor: pointer;
 
 } */
+
+.sobre .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:.2rem; 
+}
+
+.sobre .row .image{
+    flex: 1 1 45rem; 
+}
+
+.sobre .row .image img{
+    width: 100%;
+}
+
+.sobre .row .content{
+    flex: 1 1 45rem; 
+}
+
+.sobre .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8; 
+}
+
+.sobre .row .content p{
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8; 
+}
+
+
+
+
+
 
 @media (max-width:991px){
     
