@@ -215,7 +215,71 @@ section{
     line-height: 2;
 }
 
+.opcao .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:.2rem; 
+}
 
+.opcao .row .image{
+    flex: 1 1 45rem; 
+}
+
+.opcao .row .image img{
+    width: 100%;
+}
+
+.opcao .row .content{
+    flex: 1 1 45rem; 
+}
+
+.opcao .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8; 
+}
+
+.opcao .row .content p{
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8; 
+}
+
+.btn-opcao{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--green);
+    cursor: pointer; /* botão interativo   ue se transforma em uma mão */
+    font-size: 1.7rem;
+}
+
+.btn-opcao span{
+    padding: .7rem 1rem;
+    border-radius: .5rem;
+    background: var(--green);
+    color: #fff;
+    margin-right: 2rem;
+}
+
+.btn-opcao:hover{
+    background: var(--green);
+    color: #fff;
+}
+
+.btn-opcao:hover span{
+    color: var(--green);
+    background: #fff;
+    margin-left: 3rem;
+}
 
 
 
